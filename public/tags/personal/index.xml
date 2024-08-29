@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>AGRAXIAN CO.</title>
+	<link>https://agraxian.com/tags/personal/</link>
+	<description>Recent content in Personal on AGRAXIAN CO.</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Wed, 28 Aug 2024 20:37:42 +1000</lastBuildDate>
+    
+        <atom:link href="https://agraxian.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Autobiography</title>
+		<link>https://agraxian.com/autobiography/</link>
+		<pubDate>Wed, 28 Aug 2024 20:37:42 +1000</pubDate>
+		
+		<guid>https://agraxian.com/autobiography/</guid>
+		<description>&lt;p&gt;This is my autobio.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>About</title>
+		<link>https://agraxian.com/about/</link>
+		<pubDate>Wed, 28 Aug 2024 20:31:07 +1000</pubDate>
+		
+		<guid>https://agraxian.com/about/</guid>
+		<description>&lt;p&gt;Here is some content.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;list item&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
