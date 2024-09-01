@@ -15,10 +15,6 @@ Find out more [here](about)
 ### Explore
 
  - Making an offline information repository
- - The importance of preparing
- - 7 days to anarchy
- - Bugging out
- - Opsec in a post-internet world
 
 ### More
 
