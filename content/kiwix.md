@@ -15,5 +15,5 @@ Once installed, preferably on linux, you can use it's UI interface to [explore](
 - Urban Prepper (emergency preparedness topics)
 
 ## Running Kiwix
-Once you have your chosen .zim files, run the kiwix-serve command. This repository will now be running on port localhost:8080. If the device is on the local network, even better. Find out your ip (On Debian this is `hostname -I`) and go to another device on your network, visiting `x.x.x.x:8080` should show your Kiwix server. This is especially useful if you have a home server on a Raspberry Pi or similar. Personally I use my [Thinkpad](/thinkpad) to host Kiwix.
+Once you have your chosen .zim files, run the kiwix-serve command. This repository will now be running on port localhost:8080. If the device is on the local network, even better. Find out your ip (On Debian this is `hostname -I`) and go to another device on your network, visiting `x.x.x.x:8080` should show your Kiwix server. This is especially useful if you have a home server on a Raspberry Pi or similar. Personally I use my [Thinkpad](/thinkpad/) to host Kiwix.
 
