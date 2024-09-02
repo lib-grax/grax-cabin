@@ -2,3 +2,9 @@ baseURL = 'https://agraxian.com/'
 languageCode = 'en-us'
 title = 'AGRAXIAN CO.'
 theme = 'lugo'
+
+[params.meta]
+  favicon = false
+  
+
+ 
