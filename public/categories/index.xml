@@ -10,12 +10,33 @@
 	
 	
 	<item>
-		<title>Normalcy</title>
-		<link>https://agraxian.com/normalcy/</link>
-		<pubDate>Thu, 29 Aug 2024 19:14:49 +1000</pubDate>
+		<title>Thinkpads</title>
+		<link>https://agraxian.com/thinkpad/</link>
+		<pubDate>Mon, 02 Sep 2024 14:22:58 +1000</pubDate>
 		
-		<guid>https://agraxian.com/normalcy/</guid>
-		<description>&lt;p&gt;&lt;strong&gt;Normalcy&lt;/strong&gt; &lt;em&gt;(noun)&lt;/em&gt;: The condition of being normal. By liberating your minds from the effects of modernism, you will find normalcy is actually found in nature. Do not think of nature as the grass beneath your feet. It is very easy to label nature as &amp;rsquo;that green stuff outside my apartment&amp;rsquo; these days, but nature&amp;rsquo;s original meaning as it is described by Lucretius in &lt;em&gt;De Rerum Natura&lt;/em&gt; (The Nature of Things), is how the universe has come to be, how it continues to be and how the things in the universe propogate themselves.&lt;/p&gt;
+		<guid>https://agraxian.com/thinkpad/</guid>
+		<description>&lt;p&gt;Some text&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Kiwix</title>
+		<link>https://agraxian.com/kiwix/</link>
+		<pubDate>Mon, 02 Sep 2024 13:34:47 +1000</pubDate>
+		
+		<guid>https://agraxian.com/kiwix/</guid>
+		<description>&lt;h2 id=&#34;why-have-an-offline-internet&#34;&gt;Why have an offline internet?&lt;/h2&gt;
+&lt;p&gt;A great step toward digital sovereignty is having an offline repository of information. Whilst books are invaluable, having a dedicated offline server that stores basically an encyclopedia for you is very handy. This is where I&amp;rsquo;d like to talk about Kiwix.&lt;/p&gt;
+&lt;h1 id=&#34;getting-started-with-kiwix&#34;&gt;Getting started with Kiwix&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://kiwix.org/en/&#34;&gt;Kiwix&lt;/a&gt; is open source software that is aimed at providing &amp;rsquo;the internet&amp;rsquo; in places where it might not be available. It does this by allowing the user to download certain websites as .zim files locally on your device. The greatest example of this is &lt;em&gt;&lt;strong&gt;Wikipedia&lt;/strong&gt;&lt;/em&gt;. The original goal of Kiwix was to make Wikipedia available offline. &lt;br&gt;
+Once installed, preferably on linux, you can use it&amp;rsquo;s UI interface to &lt;a href=&#34;https://library.kiwix.org/#lang=eng&#34;&gt;explore&lt;/a&gt; a range of offline wikis. Pick a couple you like. I recommend:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wikipedia (about 50gb without images)&lt;/li&gt;
+&lt;li&gt;Based.cooking (luke smith&amp;rsquo;s cooking website)&lt;/li&gt;
+&lt;li&gt;Urban Prepper (emergency preparedness topics)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;running-kiwix&#34;&gt;Running Kiwix&lt;/h2&gt;
+&lt;p&gt;Once you have your chosen .zim files, run the kiwix-serve command. This repository will now be running on port localhost:8080. If the device is on the local network, even better. Find out your ip (On Debian this is &lt;code&gt;hostname -I&lt;/code&gt;) and go to another device on your network, visiting &lt;code&gt;x.x.x.x:8080&lt;/code&gt; should show your Kiwix server. This is especially useful if you have a home server on a Raspberry Pi or similar. Personally I use my &lt;a href=&#34;thinkpad&#34;&gt;Thinkpad&lt;/a&gt; to host Kiwix.&lt;/p&gt;
 </description>
 	</item>
 	

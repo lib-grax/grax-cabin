@@ -10,11 +10,11 @@ Feel free to have a look around.
 
 ### About
 
-Find out more [here](about)
+Find out more [here](/about)
 
 ### Explore
 
- - Making an offline information repository
+ - [Making an offline information repository](kiwix)
 
 ### More
 
