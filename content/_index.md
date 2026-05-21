@@ -16,9 +16,9 @@ a fraternity dedicated to the physical and spiritual recovery of Australian men.
 - developing the core principles of mateship
 - getting involved in local community 
 
-### Start here
+### start here
 
 - Read more [about the site](/about/)
 - Check [events](/events/)
 - Browse [projects](/projects/)
-- Get in touch through [contact](/contact/)
+- JOIN THE GUILD [contact](/contact/)
