@@ -9,8 +9,4 @@ In the race of digital innovation, sometimes it is important to look away from t
 
 ## severing the ties
 
-
-- Keep pages quick to load on mobile and slow connections
-- Avoid unnecessary tracking, JavaScript, and third-party embeds
-- Make updates possible with a simple Git commit
-- Keep hosting straightforward on the Binary Lane VPS
+more to add here
