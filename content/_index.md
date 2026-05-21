@@ -16,6 +16,8 @@ a fraternity dedicated to the physical and spiritual recovery of Australian men.
 - developing the core principles of mateship
 - getting involved in local community 
 
+![Bushcraft](/bushcraft.jpg)
+
 ### start here
 
 - Read more [about the site](/about/)

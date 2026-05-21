@@ -1,4 +1,5 @@
 ---
+
 title: 'ABOUT'
 description: 'About Woodend Men'
 ---
@@ -7,6 +8,8 @@ In a world of isolation and digital oppression, Woodend Men is a small group ded
 In the race of digital innovation, sometimes it is important to look away from the screen and just be with the bros.
 
 
-## severing the ties
+## why woodend? 
 
-more to add here
+Woodend sits on the edge of the Great Divide of Australia. It symbolised the start of something which is far greater than it may seem, and offers a taste of what lies ahead in the great peaks of Bogong and Kosciuszko.
+
+![Highlands](/highlands.jpeg)
