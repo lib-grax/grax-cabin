@@ -24,3 +24,4 @@ a fraternity dedicated to the physical and spiritual recovery of Australian men.
 - Check [events](/events/)
 - Browse [projects](/projects/)
 - JOIN THE GUILD [contact](/contact/)
+- Buy some merch from our fellow midlanders at [Bush Culture](https://bushculture.com.au)
