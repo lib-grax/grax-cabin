@@ -10,6 +10,6 @@ In the race of digital innovation, sometimes it is important to look away from t
 
 ## why woodend? 
 
-Woodend sits on the edge of the Great Divide of Australia. It symbolised the start of something which is far greater than it may seem, and offers a taste of what lies ahead in the great peaks of Bogong and Kosciuszko.
+Woodend sits on the edge of the Great Dividing Range of Australia. It symbolised the start of something which is far greater than it may seem, and offers a taste of what lies ahead in the great peaks of Bogong and Kosciuszko.
 
 ![Highlands](/highlands.jpeg)
