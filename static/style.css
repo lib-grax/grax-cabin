@@ -94,8 +94,9 @@ header h1 {
 .title-logo {
   display: block;
   height: auto;
-  max-width: 14rem;
-  width: 55vw;
+  margin-inline: auto;
+  max-width: 38rem;
+  width: min(100%, 38rem);
 }
 
 h2,
