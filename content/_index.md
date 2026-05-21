@@ -1,31 +1,24 @@
 ---
-title: "AGRAXIAN CO."
+title: 'WOODEND.MEN'
+description: 'sharpen iron with iron'
 ---
+![Pines](/pic.jpg)
 
-## WELCOME TO GRAX'S CABIN
+## sharpen iron with iron
 
-Feel free to have a look around.
-
-![AGRAXIAN CO.](pic.jpg)
-
-### About
-
-Find out more [here](/about)
-
-### Explore
-
- - [Making an offline information repository](kiwix)
-
-### More
-
-Reach out via [email](mailto:agraxian@pm.me)
-
-Thank you for visiting **AGRAXIAN CO.** Stay tuned, stay safe.
-
----
-
-*© 2024 AGRAXIAN CO. No rights reserved.*
+a fraternity dedicated to the physical and spiritual recovery of Australian men. Founded in Woodend, Victoria.
 
 
+### purpose
 
+- return to nature
+- digital detox
+- developing the core principles of mateship
+- getting involved in local community 
 
+### Start here
+
+- Read more [about the site](/about/)
+- Check [events](/events/)
+- Browse [projects](/projects/)
+- Get in touch through [contact](/contact/)

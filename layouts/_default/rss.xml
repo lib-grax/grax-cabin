@@ -1,0 +1,34 @@
+{{- $pages := .Site.RegularPages -}}
+{{- $language := .Site.Language.Locale -}}
+{{- $authorEmail := .Site.Params.authorEmail | default "" -}}
+{{- $authorName := .Site.Params.authorName | default "" -}}
+{{- $author := $authorEmail -}}
+{{- if and $authorEmail $authorName -}}
+  {{- $author = printf "%s (%s)" $authorEmail $authorName -}}
+{{- end -}}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content{{ if ne .Title .Site.Title }}{{ with .Title }} in {{ . }}{{ end }}{{ end }} on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with $language }}
+    <language>{{ . }}</language>{{ end }}{{ with $author }}
+    <managingEditor>{{ . }}</managingEditor>
+    <webMaster>{{ . }}</webMaster>{{ end }}{{ with .Site.Copyright }}
+    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>{{ if not .Date.IsZero }}
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ end }}{{ with $author }}
+      <author>{{ . }}</author>{{ end }}
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Content | html }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>

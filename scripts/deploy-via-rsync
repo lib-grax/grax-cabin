@@ -1,0 +1,104 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+fail() {
+    local _message=''
+
+    _message="${1:-}"
+
+    if [[ -z ${_message} ]]; then
+        _message='Unknown deployment error'
+    fi
+
+    printf 'Error: %s\n' "${_message}" >&2
+    exit 1
+}
+
+requireCommand() {
+    local _commandName=''
+
+    _commandName="${1:-}"
+
+    if [[ -z ${_commandName} ]]; then
+        fail 'Internal error: command name was not provided'
+    fi
+
+    if ! command -v "${_commandName}" >/dev/null 2>&1; then
+        fail "Required command not found: ${_commandName}"
+    fi
+}
+
+validateInput() {
+    if [[ -z ${deployHost} ]]; then
+        fail 'DEPLOY_HOST is required'
+    fi
+
+    if [[ -z ${deployUser} ]]; then
+        fail 'DEPLOY_USER is required'
+    fi
+
+    if [[ -z ${deployPath} ]]; then
+        fail 'DEPLOY_PATH is required'
+    fi
+
+    if [[ -z ${deployKnownHosts} ]]; then
+        fail 'DEPLOY_KNOWN_HOSTS is required'
+    fi
+
+    if [[ -z ${deploySource} ]]; then
+        fail 'DEPLOY_SOURCE must not be empty'
+    fi
+
+    if [[ ! -d ${deploySource} ]]; then
+        fail "DEPLOY_SOURCE does not exist or is not a directory: ${deploySource}"
+    fi
+
+    case "${deployPort}" in
+    '' | *[!0-9]*)
+        fail 'DEPLOY_PORT must be numeric'
+    ;;
+    *)
+    ;;
+    esac
+}
+
+writeKnownHosts() {
+    local _sshDirectory=''
+    local _knownHostsFile=''
+
+    _sshDirectory="${HOME}/.ssh"
+    _knownHostsFile="${_sshDirectory}/known_hosts"
+
+    mkdir -p "${_sshDirectory}"
+    chmod 700 "${_sshDirectory}"
+    printf '%s\n' "${deployKnownHosts}" > "${_knownHostsFile}"
+    chmod 600 "${_knownHostsFile}"
+}
+
+deploySite() {
+    local _sshCommand=''
+
+    _sshCommand="ssh -p ${deployPort}"
+
+    rsync \
+        -az \
+        --checksum \
+        --delete \
+        -e "${_sshCommand}" \
+        "${deploySource}/" \
+        "${deployUser}@${deployHost}:${deployPath}/"
+}
+
+# main
+deployHost="${DEPLOY_HOST:-}"
+deployKnownHosts="${DEPLOY_KNOWN_HOSTS:-}"
+deployPath="${DEPLOY_PATH:-}"
+deployPort="${DEPLOY_PORT:-22}"
+deploySource="${DEPLOY_SOURCE:-public}"
+deployUser="${DEPLOY_USER:-}"
+
+requireCommand 'rsync'
+requireCommand 'ssh'
+validateInput
+writeKnownHosts
+deploySite

@@ -1,10 +1,42 @@
-baseURL = 'https://agraxian.com/'
-languageCode = 'en-us'
-title = 'AGRAXIAN CO.'
+baseURL = 'https://woodend.men/'
+locale = 'en-AU'
+title = 'Woodend Men'
 theme = 'lugo'
+enableRobotsTXT = true
+summaryLength = 20
+disableKinds = ['taxonomy', 'term']
 
-[params.meta]
-  favicon = false
-  
+[params]
+  authorsinlist = false
+  datesinlist = false
+  description = 'A simple Woodend community website for local men, events, projects, and updates'
+  favicon = '/favicon.ico'
+  nextprev = false
+  showrss = true
+  taglist = false
 
- 
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 20
+
+  [[menu.main]]
+    name = 'Events'
+    url = '/events/'
+    weight = 30
+
+  [[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 40
+
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 50

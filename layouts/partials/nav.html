@@ -1,0 +1,14 @@
+<nav aria-label="Main navigation">
+  <ul>
+    {{- $section := .Page.Section -}}
+    {{- $file := "" -}}
+    {{- with .File -}}
+      {{- $file = .TranslationBaseName -}}
+    {{- end -}}
+    {{- range .Site.Menus.main.ByWeight -}}
+      {{- $base := path.Base .URL -}}
+      {{- $isActive := or (eq $section $base) (eq $file $base) (and (eq $section "") (eq $file "_index") (eq $base "/")) -}}
+      <li><a {{ if $isActive }}class="menuactive" {{ end }}href="{{ .URL }}"><span class="menuname">{{ .Name }}</span></a></li>
+    {{- end -}}
+  </ul>
+</nav>
