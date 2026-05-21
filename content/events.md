@@ -7,6 +7,6 @@ Upcoming events will be listed here.
 
 ![tent](/tent.jpg)
 
-## Upcoming
+## upcoming
 
 No events are published yet.
