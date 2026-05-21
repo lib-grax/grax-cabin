@@ -1,5 +1,9 @@
 {{ define "title" -}}
+{{ with .Site.Params.logo }}
+<img class="title-logo" src="{{ . }}" alt="{{ $.Site.Params.logoAlt | default $.Site.Title }}">
+{{ else }}
 {{ .Title }}
+{{ end }}
 {{- end }}
 {{ define "main" -}}
 {{ .Content }}

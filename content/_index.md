@@ -13,8 +13,8 @@ a fraternity dedicated to the physical and spiritual recovery of Australian men.
 
 - return to nature
 - digital detox
-- developing the core principles of mateship
-- getting involved in local community 
+- developing the core principles of **mateship**
+- kindling a brotherhood
 
 ![Bushcraft](/bushcraft.jpg)
 
