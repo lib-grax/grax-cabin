@@ -7,4 +7,4 @@ description: 'Contact Woodend Men'
 
 ## Email
 
-Email: [libgrax.ai@pm.me](mailto:libgrax.ai@pm.me)
+Email: [grax.ai@pm.me](mailto:grax.ai@pm.me)
