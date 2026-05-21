@@ -16,17 +16,8 @@
       <description>&lt;p&gt;In a world of isolation and digital oppression, Woodend Men is a small group dedicated to helping men develop brotherhood in the real world. Our main goal is ensuring men are not left behind in the wake of modernity, offering a place of refuge. A brief respite.
 In the race of digital innovation, sometimes it is important to look away from the screen and just be with the bros.&lt;/p&gt;
 &lt;h2 id=&#34;why-woodend&#34;&gt;why woodend?&lt;/h2&gt;
-&lt;p&gt;Woodend sits on the edge of the Great Divide of Australia. It symbolised the start of something which is far greater than it may seem, and offers a taste of what lies ahead in the great peaks of Bogong and Kosciuszko.&lt;/p&gt;
+&lt;p&gt;Woodend sits on the edge of the Great Dividing Range of Australia. It symbolised the start of something which is far greater than it may seem, and offers a taste of what lies ahead in the great peaks of Bogong and Kosciuszko.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/highlands.jpeg&#34; alt=&#34;Highlands&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CONTACT</title>
-      <link>http://localhost:1313/contact/</link>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
-&lt;p&gt;Email: &lt;a href=&#34;mailto:grax.ai@pm.me&#34;&gt;grax.ai@pm.me&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -36,13 +27,22 @@ In the race of digital innovation, sometimes it is important to look away from t
       <guid>http://localhost:1313/events/</guid>
       <description>&lt;p&gt;Upcoming events will be listed here.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/tent.jpg&#34; alt=&#34;tent&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;upcoming&#34;&gt;Upcoming&lt;/h2&gt;
+&lt;h2 id=&#34;upcoming&#34;&gt;upcoming&lt;/h2&gt;
 &lt;p&gt;No events are published yet.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Projects</title>
+      <title>JOIN THE BROTHERHOOD</title>
+      <link>http://localhost:1313/contact/</link>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h2 id=&#34;email&#34;&gt;email&lt;/h2&gt;
+&lt;p&gt;Email: &lt;a href=&#34;mailto:grax.ai@pm.me&#34;&gt;grax.ai@pm.me&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PROJECTS</title>
       <link>http://localhost:1313/projects/</link>
       <guid>http://localhost:1313/projects/</guid>
       <description>&lt;p&gt;maybe the project was the friends we made along the way..&lt;/p&gt;

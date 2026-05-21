@@ -4,9 +4,9 @@
   <url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-  </url><url>
     <loc>http://localhost:1313/events/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>

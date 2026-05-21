@@ -1,10 +1,10 @@
 ---
-title: 'CONTACT'
-description: 'Contact Woodend Men'
+title: 'JOIN THE BROTHERHOOD'
+description: 'Join'
 ---
 
 
 
-## Email
+## email
 
 Email: [grax.ai@pm.me](mailto:grax.ai@pm.me)

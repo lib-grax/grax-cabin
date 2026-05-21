@@ -19,26 +19,26 @@ disableKinds = ['taxonomy', 'term']
 
 [menu]
   [[menu.main]]
-    name = 'Home'
+    name = 'HOME'
     url = '/'
     weight = 10
 
   [[menu.main]]
-    name = 'About'
+    name = 'ABOUT'
     url = '/about/'
     weight = 20
 
   [[menu.main]]
-    name = 'Events'
+    name = 'EVENTS'
     url = '/events/'
     weight = 30
 
   [[menu.main]]
-    name = 'Projects'
+    name = 'PROJECTS'
     url = '/projects/'
     weight = 40
 
   [[menu.main]]
-    name = 'Contact'
+    name = 'JOIN'
     url = '/contact/'
     weight = 50
