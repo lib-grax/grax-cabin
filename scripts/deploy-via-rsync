@@ -64,21 +64,34 @@ validateInput() {
 
 writeKnownHosts() {
     local _sshDirectory=''
-    local _knownHostsFile=''
 
     _sshDirectory="${HOME}/.ssh"
-    _knownHostsFile="${_sshDirectory}/known_hosts"
+    knownHostsFile="${_sshDirectory}/known_hosts"
 
     mkdir -p "${_sshDirectory}"
     chmod 700 "${_sshDirectory}"
-    printf '%s\n' "${deployKnownHosts}" > "${_knownHostsFile}"
-    chmod 600 "${_knownHostsFile}"
+    printf '%s\n' "${deployKnownHosts}" > "${knownHostsFile}"
+    chmod 600 "${knownHostsFile}"
+}
+
+validateKnownHost() {
+    local _lookupHost=''
+
+    _lookupHost="${deployHost}"
+
+    if [[ ${deployPort} != '22' ]]; then
+        _lookupHost="[${deployHost}]:${deployPort}"
+    fi
+
+    if ! ssh-keygen -F "${_lookupHost}" -f "${knownHostsFile}" >/dev/null 2>&1; then
+        fail "DEPLOY_KNOWN_HOSTS does not contain an entry for DEPLOY_HOST: ${_lookupHost}"
+    fi
 }
 
 deploySite() {
     local _sshCommand=''
 
-    _sshCommand="ssh -p ${deployPort}"
+    _sshCommand="ssh -p ${deployPort} -o UserKnownHostsFile=${knownHostsFile} -o StrictHostKeyChecking=yes"
 
     rsync \
         -az \
@@ -96,9 +109,12 @@ deployPath="${DEPLOY_PATH:-}"
 deployPort="${DEPLOY_PORT:-22}"
 deploySource="${DEPLOY_SOURCE:-public}"
 deployUser="${DEPLOY_USER:-}"
+knownHostsFile=''
 
 requireCommand 'rsync'
 requireCommand 'ssh'
+requireCommand 'ssh-keygen'
 validateInput
 writeKnownHosts
+validateKnownHost
 deploySite
