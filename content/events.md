@@ -3,10 +3,16 @@ title: 'EVENTS'
 description: 'Events'
 ---
 
-Upcoming events will be listed here.
-
-![tent](/tent.jpg)
 
 ## upcoming
+WATCH THIS SPACE.
 
-No events are published yet.
+![tent](/tent.jpg)
+## what to expect
+
+- hiking
+- camping
+- rucking
+- navigating
+
+If you like the sound of any of this, or have ideas for other exercises, head over to the [join](/contact) page and reach out.
