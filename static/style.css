@@ -144,7 +144,8 @@ h2 {
   padding-bottom: 0.15rem;
 }
 
-.text-link {
+.text-link,
+.text-link strong {
   color: var(--link);
 }
 
