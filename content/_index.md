@@ -11,10 +11,10 @@ a fraternity dedicated to the physical and spiritual recovery of Australian men.
 
 ### purpose
 
-- return to nature
-- digital detox
-- developing the core principles of **mateship**
-- kindling a brotherhood
+- return to {{< colour class="text-link" >}}**nature**{{< /colour >}}
+- {{< colour class="text-link" >}}**digital detox**{{< /colour >}}
+- developing the core principles of {{< colour class="text-link" >}}**mateship**{{< /colour >}}
+- kindling {{< colour class="text-link" >}}**brotherhood**{{< /colour >}}
 
 ![Bushcraft](/bushcraft.jpg)
 

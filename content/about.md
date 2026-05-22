@@ -9,8 +9,7 @@ In the race of digital innovation, sometimes it is important to look away from t
 
 ## our mission
 
-Our goal is to encourage men from the greater Macedon Shire and surrounds to join us on events such as **hiking**, **rucking**, **overnight camping**, as a means to detox whilst also gaining invaluable skills and friendships that will last a lifetime.
-
+Our goal is to encourage men from the greater Macedon Shire and surrounds to join us on events such as {{< colour class="text-link" >}}**hiking**, **rucking**, **overnight camping**{{< /colour >}}, and more as a means to detox, whilst gaining invaluable skills and friendships that will last a lifetime. We aim to give young men a chance to discuss problems, {{< colour class="text-link" >}}**learn to overcome challenges**{{< /colour >}} and persevere in a world that can seem very isolating.
 
 See the [events](/events) page for details.
 

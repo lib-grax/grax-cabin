@@ -16,7 +16,9 @@
       <description>&lt;p&gt;In a world of isolation and digital oppression, Woodend Men is a small group dedicated to helping men develop brotherhood in the real world. Our main goal is ensuring men are not left behind in the wake of modernity, offering a place of refuge. A brief respite.
 In the race of digital innovation, sometimes it is important to look away from the screen and just be with the bros.&lt;/p&gt;
 &lt;h2 id=&#34;our-mission&#34;&gt;our mission&lt;/h2&gt;
-&lt;p&gt;Our goal is to encourage men from the greater Macedon Shire and surrounds to join us on events such as &lt;strong&gt;hiking&lt;/strong&gt;, &lt;strong&gt;rucking&lt;/strong&gt;, &lt;strong&gt;overnight camping&lt;/strong&gt;, as a means to detox whilst also gaining invaluable skills and friendships that will last a lifetime.&lt;/p&gt;
+&lt;p&gt;Our goal is to encourage men from the greater Macedon Shire and surrounds to join us on events such as &lt;span class=&#34;text-link&#34;&gt;&lt;strong&gt;hiking&lt;/strong&gt;, &lt;strong&gt;rucking&lt;/strong&gt;, &lt;strong&gt;overnight camping&lt;/strong&gt;&lt;/span&gt;
+, and more as a means to detox, whilst gaining invaluable skills and friendships that will last a lifetime. We aim to give young men a chance to discuss problems, &lt;span class=&#34;text-link&#34;&gt;&lt;strong&gt;learn to overcome challenges&lt;/strong&gt;&lt;/span&gt;
+ and persevere in a world that can seem very isolating.&lt;/p&gt;
 &lt;p&gt;See the &lt;a href=&#34;http://localhost:1313/events&#34;&gt;events&lt;/a&gt; page for details.&lt;/p&gt;
 &lt;h2 id=&#34;why-woodend&#34;&gt;why woodend?&lt;/h2&gt;
 &lt;p&gt;Woodend sits on the edge of the Great Dividing Range of Australia. It symbolised the start of something which is far greater than it may seem, and offers a taste of what lies ahead in the great peaks of Bogong and Kosciuszko.&lt;/p&gt;
@@ -56,7 +58,7 @@ In the race of digital innovation, sometimes it is important to look away from t
       <title>PROJECTS</title>
       <link>http://localhost:1313/projects/</link>
       <guid>http://localhost:1313/projects/</guid>
-      <description>&lt;p&gt;Projects will be upcoming events that aim to assist local community in the Macedon Shire area. This might look like a working bee to clean weeds or plant vegitation, or similar.&lt;/p&gt;
+      <description>&lt;p&gt;Projects will be upcoming events that aim to assist local community of the Macedon Shire area. This might look like a working bee to clean weeds, or plant native vegitation, etc.&lt;/p&gt;
 &lt;p&gt;Communities thrive when good men get together and look after them.&lt;/p&gt;
 </description>
     </item>
