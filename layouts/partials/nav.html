@@ -11,7 +11,7 @@
       <li>
         {{- if eq .URL "/" -}}
           <a class="home-link{{ if $isActive }} menuactive{{ end }}" href="{{ .URL }}" aria-label="{{ .Name }}">
-            <span class="axe-icon" aria-hidden="true"></span>
+            <img class="axe-icon" src="/axe.svg" alt="" aria-hidden="true">
           </a>
         {{- else -}}
           <a {{ if $isActive }}class="menuactive" {{ end }}href="{{ .URL }}"><span class="menuname">{{ .Name }}</span></a>

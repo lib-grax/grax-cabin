@@ -30,7 +30,7 @@
 </main>
 {{ block "footer" . }}
 <footer>
-  <a class="footer-home-link" href="{{ .Site.BaseURL }}"><span class="axe-icon" aria-hidden="true"></span>{{ .Site.BaseURL }}</a>
+  <a class="footer-home-link" href="{{ .Site.BaseURL }}"><img class="axe-icon" src="/axe.svg" alt="" aria-hidden="true">{{ .Site.BaseURL }}</a>
   {{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
 </footer>
 {{ end }}

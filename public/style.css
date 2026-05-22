@@ -84,11 +84,8 @@ nav a.menuactive {
 }
 
 .axe-icon {
-  background-color: currentColor;
   display: inline-block;
   height: 1.1em;
-  mask: url('/axe.svg') center / contain no-repeat;
-  -webkit-mask: url('/axe.svg') center / contain no-repeat;
   width: 1.1em;
 }
 
