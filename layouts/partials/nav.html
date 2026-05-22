@@ -8,7 +8,15 @@
     {{- range .Site.Menus.main.ByWeight -}}
       {{- $base := path.Base .URL -}}
       {{- $isActive := or (eq $section $base) (eq $file $base) (and (eq $section "") (eq $file "_index") (eq $base "/")) -}}
-      <li><a {{ if $isActive }}class="menuactive" {{ end }}href="{{ .URL }}"><span class="menuname">{{ .Name }}</span></a></li>
+      <li>
+        {{- if eq .URL "/" -}}
+          <a class="home-link{{ if $isActive }} menuactive{{ end }}" href="{{ .URL }}" aria-label="{{ .Name }}">
+            <span class="axe-icon" aria-hidden="true"></span>
+          </a>
+        {{- else -}}
+          <a {{ if $isActive }}class="menuactive" {{ end }}href="{{ .URL }}"><span class="menuname">{{ .Name }}</span></a>
+        {{- end -}}
+      </li>
     {{- end -}}
   </ul>
 </nav>

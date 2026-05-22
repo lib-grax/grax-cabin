@@ -43,12 +43,19 @@ nav {
 }
 
 nav ul {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem 0.75rem;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+nav li {
+  align-items: center;
+  display: inline-flex;
+  line-height: 1;
 }
 
 nav li::after {
@@ -63,7 +70,10 @@ nav li:last-child::after {
 }
 
 nav a {
+  align-items: center;
   color: var(--link);
+  display: inline-flex;
+  line-height: 1;
   text-decoration: none;
 }
 
@@ -71,6 +81,26 @@ nav a.menuactive {
   color: var(--text);
   font-weight: 700;
   text-decoration: none;
+}
+
+.axe-icon {
+  background-color: currentColor;
+  display: inline-block;
+  height: 1.1em;
+  mask: url('/axe.svg') center / contain no-repeat;
+  -webkit-mask: url('/axe.svg') center / contain no-repeat;
+  width: 1.1em;
+}
+
+.home-link {
+  align-items: center;
+  display: inline-flex;
+}
+
+.footer-home-link {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.35rem;
 }
 
 main {
