@@ -84,8 +84,14 @@ nav a.menuactive {
 }
 
 .axe-icon {
+  block-size: 1.1em;
   display: inline-block;
+  flex: 0 0 auto;
   height: 1.1em;
+  inline-size: 1.1em;
+  max-height: 1.1em;
+  max-width: 1.1em;
+  object-fit: contain;
   width: 1.1em;
 }
 
