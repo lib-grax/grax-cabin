@@ -112,7 +112,6 @@ main {
 }
 
 article {
-  border-top: 1px solid var(--rule);
   padding-top: 1rem;
 }
 
@@ -121,13 +120,13 @@ header h1 {
   font-weight: 400;
   letter-spacing: -0.03em;
   line-height: 1;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 .title-logo {
   display: block;
   height: auto;
-  margin-inline: auto;
+  margin: 0 auto;
   max-width: 38rem;
   width: min(100%, 38rem);
 }
