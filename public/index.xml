@@ -1,22 +1,66 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Woodend Men</title><link>https://woodend.men/</link><description>Recent content in WOODEND.MEN on Woodend Men</description><generator>Hugo -- gohugo.io</generator><language>en-AU</language><atom:link href="https://woodend.men/index.xml" rel="self" type="application/rss+xml"/><item><title>ABOUT</title><link>https://woodend.men/about/</link><guid>https://woodend.men/about/</guid><description>&lt;p&gt;In the race of digital innovation, sometimes it is important to look away from the screen and just be with the bros.&lt;/p&gt;
-&lt;h2 id="a-runningcycling-club-without-the-spandex"&gt;a running/cycling club (without the spandex)&lt;/h2&gt;
-&lt;p&gt;Our goal is to encourage men from the greater Macedon Shire and surrounds to join us on events such as &lt;span class="text-link"&gt;&lt;strong&gt;hiking&lt;/strong&gt;, &lt;strong&gt;rucking&lt;/strong&gt;, &lt;strong&gt;overnight camping&lt;/strong&gt;&lt;/span&gt;
-and more, as a means to detox from the virtual world. Members will gain invaluable skills, physical strength, cardio, and friendships that will last a lifetime. We aim to give young men a chance to discuss problems, &lt;span class="text-link"&gt;&lt;strong&gt;learn to overcome challenges&lt;/strong&gt;&lt;/span&gt;
-and persevere in a world that can seem very isolating.&lt;/p&gt;
-&lt;p&gt;See the &lt;a href="https://woodend.men/events"&gt;events&lt;/a&gt; page for details.&lt;/p&gt;
-&lt;h2 id="why-woodend"&gt;why woodend?&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Woodend Men</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in WOODEND.MEN on Woodend Men</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ABOUT</title>
+      <link>http://localhost:1313/about/</link>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;In the race of digital innovation, sometimes it is important to look away from the screen and just be with the bros.&lt;/p&gt;
+&lt;h2 id=&#34;a-runningcycling-club-without-the-spandex&#34;&gt;a running/cycling club (without the spandex)&lt;/h2&gt;
+&lt;p&gt;Our goal is to encourage men from the greater Macedon Shire and surrounds to join us on events such as &lt;span class=&#34;text-link&#34;&gt;&lt;strong&gt;hiking&lt;/strong&gt;, &lt;strong&gt;rucking&lt;/strong&gt;, &lt;strong&gt;overnight camping&lt;/strong&gt;&lt;/span&gt;
+ and more, as a means to detox from the virtual world. Members will gain invaluable skills, physical strength, cardio, and friendships that will last a lifetime. We aim to give young men a chance to discuss problems, &lt;span class=&#34;text-link&#34;&gt;&lt;strong&gt;learn to overcome challenges&lt;/strong&gt;&lt;/span&gt;
+ and persevere in a world that can seem very isolating.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&#34;http://localhost:1313/events&#34;&gt;events&lt;/a&gt; page for details.&lt;/p&gt;
+&lt;h2 id=&#34;why-woodend&#34;&gt;why woodend?&lt;/h2&gt;
 &lt;p&gt;Woodend sits on the edge of the Great Dividing Range of Australia. It symbolised the start of something which is far greater than it may seem, and offers a taste of what lies ahead in the great peaks of Bogong and Kosciuszko.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://woodend.men/highlands.jpeg" alt="Highlands"&gt;&lt;/p&gt;</description></item><item><title>EVENTS</title><link>https://woodend.men/events/</link><guid>https://woodend.men/events/</guid><description>&lt;h2 id="upcoming"&gt;upcoming&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/highlands.jpeg&#34; alt=&#34;Highlands&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EVENTS</title>
+      <link>http://localhost:1313/events/</link>
+      <guid>http://localhost:1313/events/</guid>
+      <description>&lt;h2 id=&#34;upcoming&#34;&gt;upcoming&lt;/h2&gt;
 &lt;p&gt;WATCH THIS SPACE.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://woodend.men/tent.jpg" alt="tent"&gt;&lt;/p&gt;
-&lt;h2 id="what-to-expect"&gt;what to expect&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/tent.jpg&#34; alt=&#34;tent&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-to-expect&#34;&gt;what to expect&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;hiking&lt;/li&gt;
 &lt;li&gt;camping&lt;/li&gt;
 &lt;li&gt;rucking&lt;/li&gt;
 &lt;li&gt;navigating&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you like the sound of any of this, or have ideas for other exercises, head over to the &lt;a href="https://woodend.men/contact"&gt;join&lt;/a&gt; page and reach out.&lt;/p&gt;</description></item><item><title>JOIN THE BROTHERHOOD</title><link>https://woodend.men/contact/</link><guid>https://woodend.men/contact/</guid><description>&lt;p&gt;Men 18 and over, please do not hesitate to reach out if you are interested in one of our upcoming &lt;a href="https://woodend.men/events"&gt;events&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="email"&gt;email&lt;/h2&gt;
-&lt;p&gt;Email: &lt;a href="mailto:join@woodend.men"&gt;join@woodend.men&lt;/a&gt;&lt;/p&gt;</description></item><item><title>PROJECTS</title><link>https://woodend.men/projects/</link><guid>https://woodend.men/projects/</guid><description>&lt;p&gt;Projects will be upcoming events that aim to assist local community of the Macedon Shire area. This might look like a working bee to clean weeds, or plant native vegitation, etc.&lt;/p&gt;
-&lt;p&gt;Communities thrive when good men get together and look after them.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;If you like the sound of any of this, or have ideas for other exercises, head over to the &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;join&lt;/a&gt; page and reach out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JOIN THE BROTHERHOOD</title>
+      <link>http://localhost:1313/contact/</link>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Men 18 and over, please do not hesitate to reach out if you are interested in one of our upcoming &lt;a href=&#34;http://localhost:1313/events&#34;&gt;events&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;email&#34;&gt;email&lt;/h2&gt;
+&lt;p&gt;Email: &lt;a href=&#34;mailto:join@woodend.men&#34;&gt;join@woodend.men&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PROJECTS</title>
+      <link>http://localhost:1313/projects/</link>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;p&gt;Projects will be upcoming events that aim to assist local community of the Macedon Shire area. This might look like a working bee to clean weeds, or plant native vegitation, etc.&lt;/p&gt;
+&lt;p&gt;Communities thrive when good men get together and look after them.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
