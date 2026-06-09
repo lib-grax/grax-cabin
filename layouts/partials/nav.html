@@ -1,22 +1,38 @@
-<nav aria-label="Main navigation">
+{{- $section := .Page.Section -}}
+{{- $file := "" -}}
+{{- with .File -}}
+  {{- $file = .TranslationBaseName -}}
+{{- end -}}
+<nav class="site-nav" aria-label="Main navigation">
   <ul>
-    {{- $section := .Page.Section -}}
-    {{- $file := "" -}}
-    {{- with .File -}}
-      {{- $file = .TranslationBaseName -}}
-    {{- end -}}
+    <li>
+      <button class="nav-toggle{{ if .IsHome }} menuactive{{ end }}" type="button" aria-expanded="false" aria-controls="site-sidebar" aria-label="Open menu">
+        <img class="axe-icon" src="/axe.svg" width="20" height="20" alt="" aria-hidden="true">
+      </button>
+    </li>
     {{- range .Site.Menus.main.ByWeight -}}
-      {{- $base := path.Base .URL -}}
-      {{- $isActive := or (eq $section $base) (eq $file $base) (and (eq $section "") (eq $file "_index") (eq $base "/")) -}}
-      <li>
-        {{- if eq .URL "/" -}}
-          <a class="home-link{{ if $isActive }} menuactive{{ end }}" href="{{ .URL }}" aria-label="{{ .Name }}">
-            <img class="axe-icon" src="/axe.svg" width="20" height="20" alt="" aria-hidden="true">
-          </a>
-        {{- else -}}
-          <a {{ if $isActive }}class="menuactive" {{ end }}href="{{ .URL }}"><span class="menuname">{{ .Name }}</span></a>
-        {{- end -}}
-      </li>
+      {{- if eq .URL "/contact/" -}}
+        {{- $base := path.Base .URL -}}
+        {{- $isActive := or (eq $section $base) (eq $file $base) (and (eq $section "") (eq $file "_index") (eq $base "/")) -}}
+        <li><a {{ if $isActive }}class="menuactive" {{ end }}href="{{ .URL }}"><span class="menuname">{{ .Name }}</span></a></li>
+      {{- end -}}
     {{- end -}}
   </ul>
 </nav>
+<div class="nav-overlay" aria-hidden="true"></div>
+<aside class="site-sidebar" id="site-sidebar" aria-hidden="true" aria-label="Site menu">
+  <div class="site-sidebar__header">
+    <a class="site-sidebar__brand" href="/">
+      <img class="axe-icon" src="/axe.svg" width="20" height="20" alt="" aria-hidden="true">
+      <span>WOODEND.MEN</span>
+    </a>
+    <button class="site-sidebar__close" type="button" aria-label="Close menu">×</button>
+  </div>
+  <ul class="site-sidebar__list">
+    {{- range .Site.Menus.main.ByWeight -}}
+      {{- $base := path.Base .URL -}}
+      {{- $isActive := or (eq $section $base) (eq $file $base) (and (eq $section "") (eq $file "_index") (eq $base "/")) -}}
+      <li><a {{ if $isActive }}class="menuactive" {{ end }}href="{{ .URL }}">{{ .Name }}</a></li>
+    {{- end -}}
+  </ul>
+</aside>
