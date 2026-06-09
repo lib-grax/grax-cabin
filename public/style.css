@@ -86,9 +86,32 @@ nav {
 }
 
 .site-nav button:hover,
-.site-nav button:focus {
+.site-nav button:focus-visible {
   background: #fff0c7;
   color: #000;
+}
+
+.home-link {
+  align-items: center;
+  display: inline-flex;
+}
+
+.nav-toggle {
+  padding: 0.1rem;
+}
+
+.nav-toggle__icon {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.22rem;
+}
+
+.nav-toggle__icon span {
+  background: currentColor;
+  border-radius: 999px;
+  display: block;
+  height: 2px;
+  width: 1rem;
 }
 
 .axe-icon {

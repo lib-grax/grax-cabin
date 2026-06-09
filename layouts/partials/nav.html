@@ -6,9 +6,18 @@
 <nav class="site-nav" aria-label="Main navigation">
   <ul>
     <li>
-      <button class="nav-toggle{{ if .IsHome }} menuactive{{ end }}" type="button" aria-expanded="false" aria-controls="site-sidebar" aria-label="Open menu">
-        <img class="axe-icon" src="/axe.svg" width="20" height="20" alt="" aria-hidden="true">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-sidebar" aria-label="Open menu">
+        <span class="nav-toggle__icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
       </button>
+    </li>
+    <li>
+      <a class="home-link{{ if .IsHome }} menuactive{{ end }}" href="/" aria-label="HOME">
+        <img class="axe-icon" src="/axe.svg" width="20" height="20" alt="" aria-hidden="true">
+      </a>
     </li>
     {{- range .Site.Menus.main.ByWeight -}}
       {{- if eq .URL "/contact/" -}}
