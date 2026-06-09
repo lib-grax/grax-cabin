@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Locale }}">
 <head>
+  {{- $styleVersion := md5 (readFile "static/style.css") -}}
+  {{- $navScriptVersion := md5 (readFile "static/nav.js") -}}
   <title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
   <link rel="canonical" href="{{ .Site.BaseURL }}">
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS" href="/index.xml">
-  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="/style.css?v={{ $styleVersion }}">
   {{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
   {{ end -}}
   <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
@@ -34,6 +36,6 @@
   {{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
 </footer>
 {{ end }}
-<script defer src="/nav.js"></script>
+<script defer src="/nav.js?v={{ $navScriptVersion }}"></script>
 </body>
 </html>
